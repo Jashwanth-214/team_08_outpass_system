@@ -11,7 +11,7 @@ function loginUser() {
   return false;
 }
 
-// request.html
+// request.html .corrte 
 function submitRequest(event) {
   event.preventDefault();
 
@@ -41,11 +41,11 @@ window.onload = () => {
         <p><strong>Enrollment No:</strong> ${studentInfo.enroll}</p>
         <p><strong>Phone:</strong> ${studentInfo.phone}</p>
         <p><strong>Course:</strong> ${studentInfo.course}</p>
-      `;
+      `
     } else {
       details.innerHTML = "<p>No request data found.</p>";
     }
   }
 };
-
+//test2 is completed
   
