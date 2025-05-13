@@ -1,9 +1,9 @@
 // login.html
 function loginUser() {
-  const studentName = document.getElementById("studentName").value;
-  const enroll = document.getElementById("enroll").value;
-  const phone = document.getElementById("phone").value;
-  const course = document.getElementById("course").value;
+  const studentName = document.getElementById("studentName").value;//studentname
+  const enroll = document.getElementById("enroll").value;//enroll
+  const phone = document.getElementById("phone").value;//phone
+  const course = document.getElementById("course").value;//course
 
   localStorage.setItem("studentInfo", JSON.stringify({ studentName, enroll, phone, course }));
 
@@ -47,5 +47,5 @@ window.onload = () => {
     }
   }
 };
-//test01 for any changes need`
+
   
