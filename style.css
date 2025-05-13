@@ -33,7 +33,7 @@ input, button {
 button {
   background-color: #4CAF50;
   color: white;
-  border: none;
+  border: 1px;
   cursor: pointer;
 }
 
